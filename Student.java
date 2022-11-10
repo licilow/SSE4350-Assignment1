@@ -7,7 +7,7 @@ public class Student {
 	public static void main(String[] args) throws SQLException { 
 		// Connect to database
 		Connection conn = null;
-		conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/db1" ,"root","L1i2_C2i2");	
+		conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/db1" ,"root","abc123");	
 	
 		// Create a statement to retrieve objects
 		Statement s = conn.createStatement();        
